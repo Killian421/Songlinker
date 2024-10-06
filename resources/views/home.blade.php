@@ -9,14 +9,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('/images/back8.jpg'); /* Ensure correct path */
+            background-image: url('/images/back8.jpg'); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            height: 100vh; /* Make sure body takes full height of the viewport */
+            height: 100vh; 
             display: flex;
-            justify-content: center; /* Horizontally center */
-            align-items: center;     /* Vertically center */
+            justify-content: center; 
+            align-items: center;  
 }
 
         nav {
@@ -67,7 +67,7 @@
             height: 300px;
             padding: 20px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px; /* Rounded corners */
+            border-radius: 10px;
         }
 
     </style>
@@ -75,7 +75,7 @@
 <body>
     <div class="container">
         <h1>Welcome to Songlinker</h1>
-        <p>You are welcome to list a song you want and put a link on it so you don't have to search for it when you want to play. EYY</p>
+        <p>You are welcome to list a song you want and put a link on it so you don't have to search for it when you want to play mwehehehe.</p>
         <nav>
             <!-- <a class= "header" href="{{ route('home') }}">Home</a> -->
             <a class= "header" href="{{ route('songs.create') }}">Get started</a> <!-- Updated link to match the context -->

@@ -50,7 +50,6 @@
 
     .container {
         background: transparent;
-        backdrop-filter: blur(30px);  
         padding: 20px;
         border-radius: 10px;
         display: flex;
@@ -152,6 +151,13 @@
         transform: scale(1.2); /* Make checkboxes larger */
         size: 100px;
     }
+
+    .sub-container{
+        background: transparent;
+        backdrop-filter: blur(30px);  
+        padding: 20px;
+        border-radius: 10px;
+    }
 </style>
 
 <!-- Navbar outside the container -->
@@ -162,10 +168,13 @@
 
 <!-- Main content container to center the table and heading -->
 <div class="container">
+    <div class ="sub-container">
     <h1>Songs List</h1>
 
     @if(session('success'))
+    <center>
         <div class="success-message">{{ session('success') }}</div>
+    </center>
     @endif
 
     <div class="table-container">
@@ -200,6 +209,7 @@
             </tr>
             @endforeach
         </table>
+     </div>
     </div>
 </div>
 

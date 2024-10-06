@@ -6,21 +6,21 @@
     <title>Add Song</title>
     <style>
         html, body {
-            height: 100%; /* Full viewport height */
+            height: 100%; 
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-image: url('/images/back8.jpg'); /* Ensure correct path */
+            background-image: url('/images/back8.jpg'); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            overflow: hidden; /* Disable scrollbars */
+            overflow: hidden; 
         }
 
         body {
             display: flex;
-            justify-content: center; /* Horizontally center */
-            align-items: center; /* Vertically center */
+            justify-content: center; 
+            align-items: center; 
         }
 
         nav {
@@ -102,7 +102,7 @@
             border: 2px solid black;
             border-radius: 5px;
             cursor: pointer;
-            width: 100%;
+            width: 50%;
             font-size: 16px;
         }
 
