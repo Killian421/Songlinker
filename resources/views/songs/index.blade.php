@@ -16,7 +16,7 @@
 
     body {
         font-family: Arial, sans-serif;
-        background-image: url('/images/back8.jpg'); /* Ensure correct path */
+        background-image: url('/images/CD.jpg'); /* Ensure correct path */
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -204,7 +204,7 @@
                         <button type="submit">Delete</button>
                     </form>
                     <!-- Styled Edit Button -->
-                    <a href="{{ route('songs.edit', $song->id) }}" class="edit-button">Edit</a>
+                    <a href="{{ route('songs.edit', $song->id) }}" class="edit-button">Update</a>
                 </td>
             </tr>
             @endforeach

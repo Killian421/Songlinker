@@ -99,9 +99,6 @@
     </style>
 </head>
 <body>
-    
-
-   
         @yield('content')
     </div>
 </body>

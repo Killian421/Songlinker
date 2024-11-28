@@ -14,6 +14,11 @@ class Song extends Model
         'title',
         'singer',
         'link',
-        'played', // Include this if you want to allow mass assignment for the 'played' attribute
+        'played',
+    ];
+
+    // Define default values for attributes
+    protected $attributes = [
+        'played' => false,
     ];
 }

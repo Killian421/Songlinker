@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-image: url('/images/back8.jpg'); 
+            background-image: url('/images/CD.jpg'); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -59,7 +59,7 @@
             max-width: 500px;
             width: 100%;
             background: transparent;
-            backdrop-filter: blur(30px);            
+            backdrop-filter: blur(10px);            
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
